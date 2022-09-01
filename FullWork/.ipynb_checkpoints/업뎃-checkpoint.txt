@@ -1,0 +1,18 @@
+1. 버전 체크
+    sklearn.__version__  / import sklearn
+
+2. scikit Upgrade
+   2-1) Jupyter 
+        버전 지정 : !pip install scikit-learn==1.0 --user
+        단순 업데이트 : !pip install scikit-learn --user --upgrade
+        
+   2-2) Anaconda - 관리자 모드 
+       c:> conda update pip
+       c:> conda upgrade scikit-learn
+       
+   2-3)    
+       c:> pip install --upgrade scikit-learn
+       c:> pip install --upgrade scikit-learn==0.22.1   # 특정버전 Update
+        
+
+        
